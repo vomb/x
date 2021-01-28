@@ -15,6 +15,6 @@ type Change struct {
 	Ref string
 }
 
-func Subscribe(ctx context.Context, req Location) (<-chan Change, error) {
+func Subscribe(ctx context.Context, req Location) (*Change, error) {
 	return nil, nil
 }
